@@ -719,10 +719,11 @@ a {
 
 .project-link {
   text-decoration: none;
-  color: var(--primary-color);
   font-weight: 600;
   font-size: 0.9rem;
-  transition: var(--transition);
+  transition: all 0.3s ease-in-out;
+  padding: 0.5rem;
+  color: var(--text-color, #f9f9f9);
 }
 
 .project-link:hover {

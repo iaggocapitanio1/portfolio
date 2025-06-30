@@ -66,5 +66,20 @@
       "title": "Interesses",
       "description": "Sou apaixonado por tecnologia, inovação e aprendizado contínuo. Gosto de explorar novas linguagens de programação, frameworks e ferramentas que podem aprimorar minhas habilidades e melhorar a qualidade do meu trabalho. Também tenho um grande interesse em análises, ciência de dados e como esses campos podem ser integrados ao desenvolvimento de software para criar aplicações mais inteligentes e eficientes."
     }
+  },
+  "projects": {
+    "title": "Projetos",
+    "description": "Aqui estão alguns dos projetos em que trabalhei. Clique no título do projeto para ver mais detalhes.",
+    "actions": {
+      "view": "Ver Projeto",
+      "code": "Ver Código"
+    },
+    "projectList": [
+      {
+        "title": "Sigilo Mobile",
+        "category": "Mobile",
+        "description": "Um aplicativo móvel rápido e multiplataforma construído com Flutter e Clean Architecture (BLoC). Utiliza cache para desempenho e fornece aos gestores de postos de combustíveis informações críticas de negócios, ajudando-os a tomar melhores decisões."
+      }
+    ]
   }
 }

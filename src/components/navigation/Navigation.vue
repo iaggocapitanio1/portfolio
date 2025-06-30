@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 import LanguageSelector from './LanguageSelector.vue'
 import ModeSelector from './ModeSelector.vue'
@@ -8,8 +7,6 @@ const { t } = useI18n()
 defineOptions({
   name: 'AppNavigation',
 })
-
-const isMenuOpen = ref(false)
 </script>
 
 <template>
@@ -26,16 +23,10 @@ const isMenuOpen = ref(false)
 
     <!-- Theme Toggle Button -->
 
-    <ModeSelector />
+    <div class="flex flex-row items-center gap-2">
+      <ModeSelector />
 
-    <!-- Menu toggle for mobile -->
-    <button class="menu-toggle" @click="isMenuOpen = !isMenuOpen">
-      <div class="hamburger" :class="{ active: isMenuOpen }">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </button>
-    <LanguageSelector />
+      <LanguageSelector />
+    </div>
   </header>
 </template>

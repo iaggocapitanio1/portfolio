@@ -26,6 +26,7 @@
     "dark": "Dark Mode",
     "auto": "System Mode"
   },
+
   "about": {
     "title": "About Me",
     "description": {
@@ -65,5 +66,20 @@
       "title": "Interests",
       "description": "I am passionate about technology, innovation, and continuous learning. I enjoy exploring new programming languages, frameworks, and tools that can enhance my skills and improve the quality of my work. I also have a keen interest in analytics, data science, and how these fields can be integrated into software development to create more intelligent and efficient applications."
     }
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "Here are some of the projects I have worked on. Click on the project title to view more details.",
+    "actions": {
+      "view": "View Project",
+      "code": "View Code"
+    },
+    "projectList": [
+      {
+        "title": "Sigilo Mobile",
+        "category": "Mobile",
+        "description": "A fast, cross-platform mobile application built with Flutter and Clean Architecture (BLoC). It leverages caching for performance and provides gas station managers with critical business information, helping them make better decisions."
+      }
+    ]
   }
 }
