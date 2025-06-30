@@ -1,15 +1,7 @@
 <template>
-  <div class="about">
+  <div class="about bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200">
     <h1>This is an about page</h1>
   </div>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>
+<style></style>

@@ -1,6 +1,29 @@
 {
   "home": {
-    "title": "Bem-vindo ao Meu Portfólio",
-    "description": "Explore meus projetos e habilidades."
+    "heroSection": {
+      "title": "Bem-vindo ao Meu Portfólio",
+      "subtitle": "Descubra meus projetos e habilidades",
+      "ctaButton": "Ver Projetos",
+      "viewMyWork": "Ver Meu Trabalho",
+      "contactMe": "Entre em Contato",
+      "softwareEngineer": "Engenheiro de Software"
+    }
+  },
+  "navigation": {
+    "home": "Início",
+    "about": "Sobre",
+    "projects": "Projetos",
+    "skills": "Habilidades",
+    "contact": "Contato",
+    "languageSelector": "Seletor de Idioma"
+  },
+  "languageSelector": {
+    "en": "Inglês",
+    "pt": "Português"
+  },
+  "mode": {
+    "light": "Modo Claro",
+    "dark": "Modo Escuro",
+    "auto": "Modo do Sistema"
   }
 }

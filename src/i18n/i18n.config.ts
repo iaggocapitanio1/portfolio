@@ -1,18 +1,17 @@
 import { createI18n } from 'vue-i18n'
+import en from './locales/en.json'
+import pt from './locales/pt.json'
 
 export type Locale = 'en' | 'pt'
 
 const i18n = createI18n({
   legacy: false,
-  locale: 'en',
+  locale: 'pt', // default locale
   fallbackLocale: 'en',
-  messages: {}, // initially empty
+  messages: {
+    en,
+    pt,
+  },
 })
 
-async function loadLocaleMessages(locale: Locale) {
-  const messages = await import(`./locales/${locale}.json`)
-  i18n.global.setLocaleMessage(locale, messages.default)
-  i18n.global.locale.value = locale
-}
-
-export { i18n, loadLocaleMessages }
+export { i18n }

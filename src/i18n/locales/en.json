@@ -1,6 +1,29 @@
 {
   "home": {
-    "title": "Welcome to My Portfolio",
-    "description": "Explore my projects and skills."
+    "heroSection": {
+      "title": "Welcome to My Portfolio",
+      "subtitle": "Discover my projects and skills",
+      "ctaButton": "View Projects",
+      "viewMyWork": "View My Work",
+      "contactMe": "Contact Me",
+      "softwareEngineer": "Software Engineer"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact",
+    "languageSelector": "Language Selector"
+  },
+  "languageSelector": {
+    "en": "English",
+    "pt": "Português"
+  },
+  "mode": {
+    "light": "Light Mode",
+    "dark": "Dark Mode",
+    "auto": "System Mode"
   }
 }
