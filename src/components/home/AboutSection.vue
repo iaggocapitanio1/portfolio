@@ -1,11 +1,28 @@
 <script setup lang="ts">
 import profilePhoto from '@/assets/profile.png'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import {
+  faBrain,
+  faBriefcase,
+  faCode,
+  faStar,
+  faUserGraduate,
+} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { h } from 'vue'
+import { useI18n } from 'vue-i18n'
+import AboutDetails from './AboutDetails.vue'
+
+// Add icons to the library
+library.add(faUserGraduate, faCode, faBrain, faBriefcase, faStar)
+
+const { t } = useI18n()
 </script>
 
 <template>
   <section id="about" class="about">
     <div class="section-header">
-      <h2 class="section-title">About Me</h2>
+      <h2 class="section-title">{{ t('about.title') }}</h2>
       <div class="section-divider"></div>
     </div>
     <div class="about-content">
@@ -16,32 +33,55 @@ import profilePhoto from '@/assets/profile.png'
       </div>
       <div class="about-text">
         <p class="about-bio">
-          I'm a passionate developer with a creative mindset. I love building beautiful, functional
-          applications that solve real-world problems. With a background in design and development,
-          I bring a unique perspective to every project.
+          {{ t('about.description.part1') }}
         </p>
+        <p class="about-bio">
+          {{ t('about.description.part2') }}
+        </p>
+        <p class="about-bio">
+          {{ t('about.description.part3') }}
+        </p>
+
         <div class="about-details">
-          <div class="detail-item">
-            <span class="detail-icon">🎓</span>
-            <div class="detail-content">
-              <h3>Education</h3>
-              <p>Bachelor's in Computer Science</p>
-            </div>
-          </div>
-          <div class="detail-item">
-            <span class="detail-icon">💼</span>
-            <div class="detail-content">
-              <h3>Experience</h3>
-              <p>5+ years in web development</p>
-            </div>
-          </div>
-          <div class="detail-item">
-            <span class="detail-icon">🌟</span>
-            <div class="detail-content">
-              <h3>Interests</h3>
-              <p>UI/UX, Animation, Creative Coding</p>
-            </div>
-          </div>
+          <AboutDetails
+            :title="t('about.skills')"
+            :icon="() => h(FontAwesomeIcon, { icon: ['fas', 'brain'] })"
+            :items="[
+              { value: 'JavaScript', description: 'Vue.js, React, Node.js, Next.js, Node-Express' },
+              { value: 'Python', description: 'Django, Flask, FastAPI, TensorFlow, OpenCV' },
+              { value: 'DevOps', description: 'Docker, Azure, AWS, Firebase, Nginx' },
+              { value: 'C++', description: 'Qt,  OpenCV' },
+              { value: 'Database', description: 'PostgreSQL, MySQL, MongoDB, SQLite' },
+              { value: 'Mobile', description: 'Flutter, Dart, Firebase, BloC, Provider' },
+            ]"
+          />
+          <AboutDetails
+            :title="t('about.interests.title')"
+            :icon="() => h(FontAwesomeIcon, { icon: ['fas', 'star'] })"
+            :description="t('about.interests.description')"
+            :items="[]"
+          />
+          <AboutDetails
+            :title="t('about.education.title')"
+            :icon="() => h(FontAwesomeIcon, { icon: ['fas', 'user-graduate'] })"
+            :items="[
+              {
+                value: t('about.education.degree_1'),
+                description: t('about.education.instituition_1'),
+              },
+              {
+                value: t('about.education.degree_2'),
+                description: t('about.education.instituition_2'),
+              },
+            ]"
+          />
+
+          <AboutDetails
+            :title="t('about.experience.title')"
+            :icon="() => h(FontAwesomeIcon, { icon: ['fas', 'briefcase'] })"
+            :description="t('about.experience.duration')"
+            :items="[]"
+          />
         </div>
       </div>
     </div>

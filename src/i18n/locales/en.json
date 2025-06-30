@@ -25,5 +25,45 @@
     "light": "Light Mode",
     "dark": "Dark Mode",
     "auto": "System Mode"
+  },
+  "about": {
+    "title": "About Me",
+    "description": {
+      "part1": "I am a software engineer with experience in backend, DevOps, frontend, and the development of mobile and web applications. I have worked on projects involving computer vision, IoT, ERP, and cloud architectures. I have experience in projects both in Brazil and abroad. On the backend, I have developed solutions for system integration and infrastructure creation, both on-premises and in the cloud (AWS). On the frontend, I have worked on web, mobile, and embedded applications, aiming to deliver clear and functional interfaces.",
+      "part2": "I have participated in B2B and B2C projects, dealing with API integration, implementing CI/CD pipelines, and process optimization. I enjoy working in multidisciplinary teams and strive to use the right technologies to solve each project's challenges.",
+      "part3": "I am motivated by challenges involving technological innovation, system architecture, and real business impact."
+    },
+    "skills": "Skills",
+    "tools": {
+      "title": "Tools and Technologies",
+      "description": "Experience with FastAPI, Django, Flask, Tensorflow, Node.js, React, Vue.js, NextJs, Flutter, Qt, Docker, AWS, CI/CD, SQL and NoSQL databases."
+    },
+    "programmingLanguages": {
+      "title": "Programming Languages",
+      "description": "Python, JavaScript, TypeScript, Dart, C++, SQL"
+    },
+    "languages": {
+      "title": "Languages",
+      "description": "Portuguese (native), English (advanced), German (basic), Spanish (basic)"
+    },
+    "backend": {
+      "title": "Backend",
+      "description": "Development of RESTful APIs, system integration, cloud infrastructure creation (AWS), relational and non-relational databases."
+    },
+    "experience": {
+      "title": "Experience",
+      "duration": "+6 years in software development"
+    },
+    "education": {
+      "title": "Education",
+      "degree_1": "Bachelor in Mechanical Engineering",
+      "degree_2": "Master in Production Engineering",
+      "instituition_1": "Federal University of Technology – Paraná - Brazil",
+      "instituition_2": "Polytechnic Institute of Bragança - Portugal"
+    },
+    "interests": {
+      "title": "Interests",
+      "description": "I am passionate about technology, innovation, and continuous learning. I enjoy exploring new programming languages, frameworks, and tools that can enhance my skills and improve the quality of my work. I also have a keen interest in analytics, data science, and how these fields can be integrated into software development to create more intelligent and efficient applications."
+    }
   }
 }

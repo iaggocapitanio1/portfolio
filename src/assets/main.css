@@ -554,7 +554,7 @@ a {
   position: relative;
   border-radius: 20px;
   overflow: hidden;
-  max-height: 580px;
+  max-height: 680px;
   box-shadow: var(--card-shadow);
 }
 
@@ -575,8 +575,9 @@ a {
 }
 
 .about-bio {
-  font-size: 1.1rem;
-  margin-bottom: 30px;
+  font-size: 1rem;
+  margin-bottom: 16px;
+  text-align: justify;
   color: var(--light-text);
 }
 

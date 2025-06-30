@@ -25,5 +25,46 @@
     "light": "Modo Claro",
     "dark": "Modo Escuro",
     "auto": "Modo do Sistema"
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "description": {
+      "part1": "Sou engenheiro de software com experiência em backend, DevOps, front-end e no desenvolvimento de aplicações mobile e web. Já trabalhei em projetos que integraram visão computacional, IoT, ERP e arquiteturas em nuvem. Tenho experiência em projetos no Brasil e no exterior. No backend, trabalhei no desenvolvimento de soluções para integração entre sistemas e na criação de infraestrutura, tanto local quanto em nuvem (AWS). No front-end, atuei em aplicações web, mobile e embarcadas, buscando entregar interfaces claras e funcionais.",
+      "part2": "Já participei de projetos B2B e B2C, lidando com integração de APIs, implementação de pipelines de CI/CD e otimização de processos. Gosto de trabalhar em equipes multidisciplinares e procuro usar tecnologias adequadas para resolver os problemas de cada projeto.",
+      "part3": "Sou motivado por desafios que envolvem inovação tecnológica, arquitetura de sistemas e impacto real nos negócios."
+    },
+
+    "skills": "Habilidades",
+    "tools": {
+      "title": "Ferramentas e Tecnologias",
+      "description": "Experiência com FastAPI, Django, Flask, Tensorflow, Node.js, React, Vue.js, NextJs, Flutter, Qt, Docker, AWS, CI/CD, bancos de dados SQL e NoSQL."
+    },
+    "programmingLanguages": {
+      "title": "Linguagens de Programação",
+      "description": "Python, JavaScript, TypeScript, Dart, C++, SQL"
+    },
+    "languages": {
+      "title": "Idiomas",
+      "description": "Português (nativo), Inglês (avançado), Alemão (básico), Espanhol (básico)"
+    },
+    "backend": {
+      "title": "Backend",
+      "description": "Desenvolvimento de APIs RESTful, integração de sistemas, criação de infraestrutura em nuvem (AWS), bancos de dados relacionais e não relacionais."
+    },
+    "experience": {
+      "title": "Experiência",
+      "duration": "+6 anos com desenvolvimento de software"
+    },
+    "education": {
+      "title": "Educação",
+      "degree_1": "Bacharel em Engenharia Mecânica",
+      "degree_2": "Mestrado em Engenharia de Produção",
+      "instituition_1": "Universidade Tecnológica Federal do Paraná - Brasil",
+      "instituition_2": "Instituto Politécnico de Bragança - Portugal"
+    },
+    "interests": {
+      "title": "Interesses",
+      "description": "Sou apaixonado por tecnologia, inovação e aprendizado contínuo. Gosto de explorar novas linguagens de programação, frameworks e ferramentas que podem aprimorar minhas habilidades e melhorar a qualidade do meu trabalho. Também tenho um grande interesse em análises, ciência de dados e como esses campos podem ser integrados ao desenvolvimento de software para criar aplicações mais inteligentes e eficientes."
+    }
   }
 }
