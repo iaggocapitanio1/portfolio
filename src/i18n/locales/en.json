@@ -74,12 +74,37 @@
       "view": "View Project",
       "code": "View Code"
     },
-    "projectList": [
-      {
-        "title": "Sigilo Mobile",
-        "category": "Mobile",
-        "description": "A fast, cross-platform mobile application built with Flutter and Clean Architecture (BLoC). It leverages caching for performance and provides gas station managers with critical business information, helping them make better decisions."
-      }
-    ]
+    "categories": {
+      "all": "All",
+      "web": "Web",
+      "mobile": "Mobile",
+      "embedded": "Embedded"
+    },
+    "sigiloMobile": {
+      "title": "Sigilo Mobile",
+      "category": "Mobile",
+      "description": "A fast, cross-platform mobile application built with Flutter and Clean Architecture (BLoC). It leverages caching for performance and provides gas station managers with critical business information, helping them make better decisions."
+    },
+    "kindraTrack": {
+      "title": "Kindra Track",
+      "computationalVision": "Computer Vision",
+      "iot": "IoT",
+      "description": "Kindra Track is an innovative web platform that enables complete monitoring of animal shipments such as pigs, fish, cattle, and chickens. Integrated with an embedded computer vision and sensor system, the platform receives real-time shipment information directly from farms.",
+      "description2": "In addition, Kindra Track features a mobile app that synchronizes this data, allowing managers to:",
+      "description3": "1. Track the status of shipments and animals at their facilities.",
+      "description4": "2. Receive automatic notifications of count discrepancies, ensuring accuracy in logistics processes.",
+      "description5": "3. Obtain detailed weekly reports with analyses of shipments that showed discrepancies compared to the values reported in the GTA (Animal Transfer Guide), providing greater transparency and operational control.",
+      "category": "Web"
+    },
+    "ww4": {
+      "title": "WW 4.0",
+      "category": "Web",
+      "description": "WOOD WORK 4.0 is an internal web platform developed to enable complete digitalization and intelligent tracking of factory processes within the carpentry and furniture production sector. The project is a collaboration between NKA – New Knowledge Advice, Instituto Politécnico de Bragança (IPB), and CeDRI – Centro de Investigação em Digitalização e Robótica Inteligente. The platform replaces traditional paper-based workflows with a centralized digital application, streamlining daily operations on the factory floor. It integrates data analysis and computer vision to automate the capture, classification, and management of production data."
+    },
+    "vamo": {
+      "title": "Vamo.com.vc",
+      "category": "Web",
+      "description": "Vamo.com.vc is a modern flight booking platform that integrates with multiple airline APIs to deliver real-time results, uses parallel searches for faster responses, tracks user data with Google Analytics, and applies smart caching to improve performance, all within an intuitive, mobile-friendly design for a seamless booking experience."
+    }
   }
 }

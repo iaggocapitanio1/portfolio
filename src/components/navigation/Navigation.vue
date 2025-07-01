@@ -11,7 +11,7 @@ defineOptions({
 
 <template>
   <header class="header">
-    <div class="logo">
+    <div>
       <span class="logo-text text-white">Portfolio</span>
     </div>
     <nav class="nav">

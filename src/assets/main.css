@@ -246,11 +246,19 @@ section {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 .logo-text {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 700;
   padding: 0.25rem 0.25rem;
   border-radius: 5px;
+  margin-right: 1rem;
   background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+}
+
+@media screen and (max-width: 480px) {
+  .logo-text {
+    font-size: 1rem;
+    margin-right: auto;
+  }
 }
 .nav {
   display: flex;
@@ -546,28 +554,52 @@ a {
   align-items: center;
 }
 
+.about-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+
+  max-width: 680px; /* adjust as needed for desktop max size */
+  height: auto;
+  aspect-ratio: 1 / 1; /* keeps square, adjust if portrait or landscape */
+  background-image: url('/profile.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  margin: 0 auto; /* center if container is larger */
+}
+
 .about-image {
   flex: 1;
+  max-width: 680px; /* cap maximum image width */
 }
 
-.image-container {
-  position: relative;
-  border-radius: 20px;
-  overflow: hidden;
-  max-height: 680px;
-  box-shadow: var(--card-shadow);
+@media (max-width: 768px) {
+  .about-photo {
+    max-width: 100%; /* full width on smaller screens */
+    max-width: 300px;
+  }
 }
 
-.image-placeholder {
-  width: 100%;
-  aspect-ratio: 1;
-  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-weight: 600;
-  font-size: 1.2rem;
+@media (max-width: 640px) {
+  .about-photo {
+    max-width: 85vw; /* almost full screen width */
+  }
+}
+
+@media (max-width: 1024px) {
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-image {
+    flex: none; /* disables flex behavior on column layout */
+    width: 100%; /* ensures fills available width */
+    max-width: 400px; /* prevents too large on tablets */
+    margin: 0 auto; /* centers the image */
+  }
 }
 
 .about-text {
@@ -591,10 +623,6 @@ a {
   display: flex;
   align-items: flex-start;
   gap: 15px;
-}
-.about-photo {
-  position: relative;
-  top: -160px; /* move up */
 }
 
 .detail-icon {
@@ -963,7 +991,7 @@ a {
   }
 
   .about-image {
-    max-width: 400px;
+    max-width: 680px;
     margin: 0 auto;
   }
 
@@ -1045,7 +1073,7 @@ a {
   }
 
   .section-title {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
   .theme-toggle {

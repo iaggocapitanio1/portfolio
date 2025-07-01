@@ -24,50 +24,91 @@ const projects = ref<Project[]>([
       '/sigilo-mobile/saldo_1.png',
       '/sigilo-mobile/saldo_2.png',
     ],
-    description: t('projects.projectList[0].description'),
+    description: t('projects.sigiloMobile.description'),
     tags: ['Flutter', 'Firebase', 'Dart', 'BloC', 'GetIt', 'Provider'],
     category: 'Mobile',
-    demoLink: '#',
-    codeLink: '#',
+    deployLink:
+      'https://play.google.com/store/apps/details?id=br.com.modula.sigilomobile&pcampaignid=web_share',
   },
   {
-    title: 'Task Management App',
+    title: 'Kindra Track',
     images: [
-      'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop',
-      'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=600&fit=crop',
-      'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop',
+      '/kindra-track/login.png',
+      '/kindra-track/dashboard.png',
+      '/kindra-track/dashboard_2.png',
+      '/kindra-track/gtas.png',
+      '/kindra-track/gta.png',
+      '/kindra-track/trucks.png',
+      '/kindra-track/producers.png',
+      '/kindra-track/producer_2.png',
+      '/kindra-track/producer_3.png',
+      '/kindra-track/producer_4.png',
+      '/kindra-track/settings.png',
     ],
-    description:
-      'A productivity app for managing tasks, projects, and deadlines with team collaboration.',
-    tags: ['Vue.js', 'Firebase', 'Tailwind CSS'],
+    description: t('projects.kindraTrack.description'),
+    tags: [
+      'AWS',
+      'Tailwind CSS',
+      'TypeScript',
+      'Django',
+      'PostgreSQL',
+      'Docker',
+      t('projects.kindraTrack.computationalVision'),
+      t('projects.kindraTrack.iot'),
+      'Next.js',
+      'React',
+      'Node.js',
+      'OAuth2',
+    ],
     category: 'Web',
-    demoLink: '#',
-    codeLink: '#',
+    deployLink: 'https://track.kindraindustria.com',
   },
   {
-    title: 'Fitness Tracker',
-    images: [
-      'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=600&fit=crop',
-      'https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=800&h=600&fit=crop',
-      'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&h=600&fit=crop',
+    title: 'WW 4.0',
+    images: ['/ww4/project.jpeg', '/ww4/wood.jpeg'],
+    description: t('projects.ww4.description'),
+
+    tags: [
+      'Nginx',
+      'Node.js',
+      'Tailwind CSS',
+      'Docker',
+      'PostgreSQL',
+      'Django',
+      'Python',
+      'Next.js',
+      'React',
+      'TypeScript',
+      'OAuth2',
+      'Machine Learning',
+      'IoT',
     ],
-    description: 'Mobile application for tracking workouts, nutrition, and health metrics.',
-    tags: ['Vue Native', 'GraphQL', 'Chart.js'],
-    category: 'Mobile',
-    demoLink: '#',
-    codeLink: '#',
+    category: 'Web',
+    deployLink: 'https://morecolab.pt/inicio/projetos/projetos-ww4-0/',
   },
   {
-    title: 'Portfolio Website',
+    title: 'Vamo.com.vc',
     images: [
-      'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=600&fit=crop',
-      'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop',
-      'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=600&fit=crop',
+      '/vamo/main.png',
+      '/vamo/who_we_are.png',
+      '/vamo/search.png',
+      '/vamo/payment.png',
+      '/vamo/checkout.png',
     ],
-    description: 'Creative portfolio website showcasing projects and skills.',
-    tags: ['Vue.js', 'GSAP', 'CSS Animations'],
-    category: 'Design',
-    demoLink: '#',
+    description: t('projects.vamo.description'),
+    tags: [
+      'Next.js',
+      'React',
+      'TypeScript',
+      'Tailwind CSS',
+      'Node.js',
+      'Vercel',
+      'Azure',
+      'Redis',
+      'PostgreSQL',
+    ],
+    category: 'Web',
+    deployLink: '#',
     codeLink: '#',
   },
   {
@@ -80,25 +121,13 @@ const projects = ref<Project[]>([
     description: 'Real-time weather information with forecasts and interactive maps.',
     tags: ['Vue.js', 'API Integration', 'D3.js'],
     category: 'Web',
-    demoLink: '#',
-    codeLink: '#',
-  },
-  {
-    title: 'UI Component Library',
-    images: [
-      'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600&fit=crop',
-      'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=800&h=600&fit=crop',
-      'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=600&fit=crop',
-    ],
-    description: 'Collection of reusable UI components with comprehensive documentation.',
-    tags: ['Vue.js', 'Storybook', 'SCSS'],
-    category: 'Design',
-    demoLink: '#',
+    deployLink: '#',
     codeLink: '#',
   },
 ])
 
-const categories = ['All', 'Web', 'Mobile', 'Design']
+const categories = ['All', 'Web', 'Mobile', 'Embedded']
+
 const activeFilter = ref('All')
 
 const handleFilterChange = (category: string) => {
@@ -136,7 +165,7 @@ const updateImageIndex = (index: number) => {
 <template>
   <section id="projects" class="projects">
     <div class="section-header">
-      <h2 class="section-title">My Projects</h2>
+      <h2 class="section-title">{{ t('projects.title') }}</h2>
       <div class="section-divider"></div>
     </div>
 

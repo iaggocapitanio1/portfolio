@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import profilePhoto from '@/assets/profile.png'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import {
   faBrain,
@@ -27,9 +26,7 @@ const { t } = useI18n()
     </div>
     <div class="about-content">
       <div class="about-image">
-        <div class="image-container">
-          <img :src="profilePhoto" alt="Your Photo" class="about-photo" />
-        </div>
+        <div class="about-photo"></div>
       </div>
       <div class="about-text">
         <p class="about-bio">

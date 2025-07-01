@@ -22,7 +22,11 @@ defineProps<{
     </div>
     <span v-if="description" class="text-md font-semibold text-justify">{{ description }}</span>
     <ul v-if="items.length">
-      <li v-for="(item, index) in items" :key="index">
+      <li
+        v-for="(item, index) in items"
+        :key="index"
+        class="flex flex-col gap-1 justify-center items-start"
+      >
         <p class="value" v-if="item.value">{{ item.value }}</p>
         <p class="text-xs text-gray-700 dark:text-gray-400 mb-1" v-if="item.description">
           {{ item.description }}

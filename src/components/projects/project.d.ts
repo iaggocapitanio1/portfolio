@@ -4,8 +4,8 @@ export interface Project {
   description: string
   tags: string[]
   category: string
-  demoLink: string
-  codeLink: string
+  deployLink?: string
+  codeLink?: string
 }
 
 export interface ModalState {
