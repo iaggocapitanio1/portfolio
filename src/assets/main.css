@@ -506,7 +506,18 @@ a {
   position: absolute;
   border-radius: 50%;
   filter: blur(60px);
+  opacity: 0.15;
+}
+.dark .shape {
   opacity: 0.5;
+}
+@media screen and (max-width: 480px) {
+  .shape {
+    opacity: 0.15;
+  }
+  .dark .shape {
+    opacity: 0.5;
+  }
 }
 
 .shape-1 {
