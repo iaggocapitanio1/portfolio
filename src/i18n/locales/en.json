@@ -105,6 +105,12 @@
       "title": "Vamo.com.vc",
       "category": "Web",
       "description": "Vamo.com.vc is a modern flight booking platform that integrates with multiple airline APIs to deliver real-time results, uses parallel searches for faster responses, tracks user data with Google Analytics, and applies smart caching to improve performance, all within an intuitive, mobile-friendly design for a seamless booking experience."
+    },
+    "weed": {
+      "title": "Weed Vision",
+      "category": "Embedded",
+      "computationalVision": "Computer Vision",
+      "description": "Weed Vision is a Selective Spraying system that uses computer vision to apply herbicides only on target plants, reducing field contamination by up to 80% and minimizing herbicide and fertilizer waste. This creates both a positive environmental impact and significant financial savings, forming a mutualistic synergy between agriculture and the environment."
     }
   }
 }

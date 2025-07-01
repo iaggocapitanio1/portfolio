@@ -105,6 +105,12 @@
       "title": "Vamo.com.vc",
       "category": "Web",
       "description": "Vamo.com.vc é uma plataforma moderna de busca e reserva de passagens aéreas que integra múltiplas APIs de companhias para entregar resultados em tempo real, utiliza buscas paralelas para respostas mais rápidas, rastreia dados dos usuários com Google Analytics e aplica cache inteligente para melhorar a performance, tudo em um design intuitivo e responsivo para uma experiência de reserva sem complicações."
+    },
+    "weed": {
+      "title": "Weed Vision",
+      "category": "Embedded",
+      "computationalVision": "Visão Computacional",
+      "description": "O Weed Vision é um sistema de Pulverização Seletiva que utiliza visão computacional para aplicar herbicidas apenas nas plantas-alvo, reduzindo a contaminação do campo em até 80% e minimizando o desperdício de herbicidas e fertilizantes. Isso gera um impacto ambiental positivo e também economia financeira, criando uma sinergia mutualista entre agricultura e meio ambiente."
     }
   }
 }
