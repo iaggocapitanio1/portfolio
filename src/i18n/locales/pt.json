@@ -1,4 +1,9 @@
 {
+  "metadata": {
+    "title": "Iaggo Capitanio - Portfólio",
+    "description": "Portfólio de Iaggo Capitanio, um engenheiro de software com experiência em backend, DevOps, front-end e no desenvolvimento de aplicações mobile e web.",
+    "keywords": "portfólio, engenheiro de software, backend, DevOps, front-end, aplicações mobile, aplicações web"
+  },
   "home": {
     "heroSection": {
       "title": "Bem-vindo ao Meu Portfólio",

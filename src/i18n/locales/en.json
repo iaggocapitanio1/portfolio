@@ -1,4 +1,9 @@
 {
+  "metadata": {
+    "title": "Iaggo Capitanio - Portfolio",
+    "description": "Portfolio of Iaggo Capitanio, a software engineer with experience in backend, DevOps, frontend, and developing mobile and web applications.",
+    "keywords": "portfolio, software engineer, backend, DevOps, frontend, mobile applications, web applications"
+  },
   "home": {
     "heroSection": {
       "title": "Welcome to My Portfolio",
