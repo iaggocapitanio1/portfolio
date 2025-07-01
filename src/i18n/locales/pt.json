@@ -112,5 +112,29 @@
       "computationalVision": "Visão Computacional",
       "description": "O Weed Vision é um sistema de Pulverização Seletiva que utiliza visão computacional para aplicar herbicidas apenas nas plantas-alvo, reduzindo a contaminação do campo em até 80% e minimizando o desperdício de herbicidas e fertilizantes. Isso gera um impacto ambiental positivo e também economia financeira, criando uma sinergia mutualista entre agricultura e meio ambiente."
     }
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "description": "Se você tiver alguma dúvida ou quiser discutir um projeto, fique à vontade para entrar em contato. Estou ansioso para ouvir você!",
+    "form": {
+      "name": "Nome",
+      "email": "E-mail",
+      "phone": "Telefone",
+      "location": "Localização",
+      "message": "Mensagem",
+      "submitButton": "Enviar Mensagem",
+      "sending": "Enviando...",
+      "success": "Mensagem enviada com sucesso!",
+      "successMessage": "Obrigado pela sua mensagem! Retornarei o contato o mais breve possível.",
+      "errorMessage": "Falha ao enviar a mensagem. Por favor, tente novamente mais tarde ou entre em contato via Whatsapp.",
+      "whatsAppMessage": "Olá! Gostaria de saber mais sobre seus serviços."
+    },
+    "contactInfo": {
+      "email": "E-mail",
+      "phone": "Telefone",
+      "location": "Localização",
+      "message": "Mensagem"
+    },
+    "address": "Curitiba - Pilarzinho, PR - Brasil"
   }
 }

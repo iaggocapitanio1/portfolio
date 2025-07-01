@@ -7,7 +7,8 @@ import { computed, ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 
 const { t } = useI18n()
-const projects = ref<Project[]>([
+
+const projects = computed<Project[]>(() => [
   {
     title: 'Sigilo Mobile',
     images: [
@@ -67,7 +68,6 @@ const projects = ref<Project[]>([
     title: 'WW 4.0',
     images: ['/ww4/project.jpeg', '/ww4/wood.jpeg'],
     description: t('projects.ww4.description'),
-
     tags: [
       'Nginx',
       'Node.js',
@@ -82,6 +82,7 @@ const projects = ref<Project[]>([
       'OAuth2',
       'Machine Learning',
       'IoT',
+      'Fiware',
     ],
     category: 'Web',
     deployLink: 'https://morecolab.pt/inicio/projetos/projetos-ww4-0/',

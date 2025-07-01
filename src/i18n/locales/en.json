@@ -19,25 +19,24 @@
   },
   "languageSelector": {
     "en": "English",
-    "pt": "Português"
+    "pt": "Portuguese"
   },
   "mode": {
     "light": "Light Mode",
     "dark": "Dark Mode",
     "auto": "System Mode"
   },
-
   "about": {
     "title": "About Me",
     "description": {
-      "part1": "I am a software engineer with experience in backend, DevOps, frontend, and the development of mobile and web applications. I have worked on projects involving computer vision, IoT, ERP, and cloud architectures. I have experience in projects both in Brazil and abroad. On the backend, I have developed solutions for system integration and infrastructure creation, both on-premises and in the cloud (AWS). On the frontend, I have worked on web, mobile, and embedded applications, aiming to deliver clear and functional interfaces.",
-      "part2": "I have participated in B2B and B2C projects, dealing with API integration, implementing CI/CD pipelines, and process optimization. I enjoy working in multidisciplinary teams and strive to use the right technologies to solve each project's challenges.",
-      "part3": "I am motivated by challenges involving technological innovation, system architecture, and real business impact."
+      "part1": "I am a software engineer with experience in backend, DevOps, frontend, and developing mobile and web applications. I have worked on projects integrating computer vision, IoT, ERP, and cloud architectures. I have experience with projects in Brazil and abroad. On the backend, I have developed solutions for system integrations and infrastructure creation, both locally and in the cloud (AWS). On the frontend, I have worked on web, mobile, and embedded applications, aiming to deliver clear and functional interfaces.",
+      "part2": "I have participated in B2B and B2C projects, dealing with API integration, CI/CD pipeline implementation, and process optimization. I enjoy working in multidisciplinary teams and seek to use appropriate technologies to solve each project's problems.",
+      "part3": "I am motivated by challenges involving technological innovation, systems architecture, and real business impact."
     },
     "skills": "Skills",
     "tools": {
       "title": "Tools and Technologies",
-      "description": "Experience with FastAPI, Django, Flask, Tensorflow, Node.js, React, Vue.js, NextJs, Flutter, Qt, Docker, AWS, CI/CD, SQL and NoSQL databases."
+      "description": "Experience with FastAPI, Django, Flask, TensorFlow, Node.js, React, Vue.js, Next.js, Flutter, Qt, Docker, AWS, CI/CD, SQL, and NoSQL databases."
     },
     "programmingLanguages": {
       "title": "Programming Languages",
@@ -53,23 +52,23 @@
     },
     "experience": {
       "title": "Experience",
-      "duration": "+6 years in software development"
+      "duration": "+6 years of software development"
     },
     "education": {
       "title": "Education",
-      "degree_1": "Bachelor in Mechanical Engineering",
-      "degree_2": "Master in Production Engineering",
-      "instituition_1": "Federal University of Technology – Paraná - Brazil",
-      "instituition_2": "Polytechnic Institute of Bragança - Portugal"
+      "degree_1": "Bachelor's in Mechanical Engineering",
+      "degree_2": "Master's in Industrial Engineering",
+      "instituition_1": "Federal University of Technology - Paraná, Brazil",
+      "instituition_2": "Polytechnic Institute of Bragança, Portugal"
     },
     "interests": {
       "title": "Interests",
-      "description": "I am passionate about technology, innovation, and continuous learning. I enjoy exploring new programming languages, frameworks, and tools that can enhance my skills and improve the quality of my work. I also have a keen interest in analytics, data science, and how these fields can be integrated into software development to create more intelligent and efficient applications."
+      "description": "I am passionate about technology, innovation, and continuous learning. I enjoy exploring new programming languages, frameworks, and tools that can enhance my skills and improve my work quality. I also have a strong interest in analytics and data science, and how these fields can be integrated into software development to create smarter and more efficient applications."
     }
   },
   "projects": {
     "title": "Projects",
-    "description": "Here are some of the projects I have worked on. Click on the project title to view more details.",
+    "description": "Here are some of the projects I have worked on. Click on the project title to see more details.",
     "actions": {
       "view": "View Project",
       "code": "View Code"
@@ -82,35 +81,59 @@
     },
     "sigiloMobile": {
       "title": "Sigilo Mobile",
-      "category": "Mobile",
-      "description": "A fast, cross-platform mobile application built with Flutter and Clean Architecture (BLoC). It leverages caching for performance and provides gas station managers with critical business information, helping them make better decisions."
+      "description": "A fast and cross-platform mobile application built with Flutter and Clean Architecture (BLoC). It uses caching for performance and provides fuel station managers with critical business information, helping them make better decisions.",
+      "category": "Mobile"
     },
     "kindraTrack": {
       "title": "Kindra Track",
       "computationalVision": "Computer Vision",
       "iot": "IoT",
-      "description": "Kindra Track is an innovative web platform that enables complete monitoring of animal shipments such as pigs, fish, cattle, and chickens. Integrated with an embedded computer vision and sensor system, the platform receives real-time shipment information directly from farms.",
-      "description2": "In addition, Kindra Track features a mobile app that synchronizes this data, allowing managers to:",
-      "description3": "1. Track the status of shipments and animals at their facilities.",
-      "description4": "2. Receive automatic notifications of count discrepancies, ensuring accuracy in logistics processes.",
-      "description5": "3. Obtain detailed weekly reports with analyses of shipments that showed discrepancies compared to the values reported in the GTA (Animal Transfer Guide), providing greater transparency and operational control.",
+      "description": "Kindra Track is an innovative web platform that enables complete monitoring of animal shipments such as pigs, fish, cattle, and chickens. Integrated with an embedded system using computer vision and sensors, the platform receives real-time loading information directly from farms.",
+      "description2": "Additionally, Kindra Track includes a mobile app that synchronizes this data, allowing managers to:",
+      "description3": "1. Monitor the status of shipments and animals in their facilities.",
+      "description4": "2. Receive automatic notifications of counting discrepancies, ensuring logistical accuracy.",
+      "description5": "3. Obtain detailed weekly reports with analyses of shipments that presented discrepancies compared to the values reported in the GTA (Animal Transfer Guide), providing greater transparency and operational control.",
       "category": "Web"
     },
     "ww4": {
       "title": "WW 4.0",
       "category": "Web",
-      "description": "WOOD WORK 4.0 is an internal web platform developed to enable complete digitalization and intelligent tracking of factory processes within the carpentry and furniture production sector. The project is a collaboration between NKA – New Knowledge Advice, Instituto Politécnico de Bragança (IPB), and CeDRI – Centro de Investigação em Digitalização e Robótica Inteligente. The platform replaces traditional paper-based workflows with a centralized digital application, streamlining daily operations on the factory floor. It integrates data analysis and computer vision to automate the capture, classification, and management of production data."
+      "description": "WOOD WORK 4.0 is an internal web platform developed to enable complete digitalization and intelligent tracking of manufacturing processes in the carpentry and furniture production sector. The project is a collaboration between NKA – New Knowledge Advice, the Polytechnic Institute of Bragança (IPB), and CeDRI – Research Center in Digitalization and Intelligent Robotics. The platform replaces traditional paper-based workflows with a centralized digital application, optimizing daily operations on the shop floor. It integrates data analysis and computer vision to automate the capture, classification, and management of production data."
     },
     "vamo": {
       "title": "Vamo.com.vc",
       "category": "Web",
-      "description": "Vamo.com.vc is a modern flight booking platform that integrates with multiple airline APIs to deliver real-time results, uses parallel searches for faster responses, tracks user data with Google Analytics, and applies smart caching to improve performance, all within an intuitive, mobile-friendly design for a seamless booking experience."
+      "description": "Vamo.com.vc is a modern flight search and booking platform that integrates multiple airline APIs to deliver real-time results, uses parallel searches for faster responses, tracks user data with Google Analytics, and applies intelligent caching to improve performance, all in an intuitive and responsive design for a hassle-free booking experience."
     },
     "weed": {
       "title": "Weed Vision",
       "category": "Embedded",
       "computationalVision": "Computer Vision",
-      "description": "Weed Vision is a Selective Spraying system that uses computer vision to apply herbicides only on target plants, reducing field contamination by up to 80% and minimizing herbicide and fertilizer waste. This creates both a positive environmental impact and significant financial savings, forming a mutualistic synergy between agriculture and the environment."
+      "description": "Weed Vision is a selective spraying system that uses computer vision to apply herbicides only to target plants, reducing field contamination by up to 80% and minimizing herbicide and fertilizer waste. This generates a positive environmental impact and financial savings, creating a mutual synergy between agriculture and the environment."
     }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "If you have any questions or would like to discuss a project, feel free to reach out. I look forward to hearing from you!",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location",
+      "message": "Message",
+      "submitButton": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "successMessage": "Thank you for your message! I will get back to you as soon as possible.",
+      "errorMessage": "Failed to send message. Please try again later. Or contact me via Whatsapp.",
+      "whatsAppMessage": "Hi! I would like to know more about your services."
+    },
+    "contactInfo": {
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location",
+      "message": "Message"
+    },
+    "address": "Curitiba - Pilarzinho, PR - Brazil"
   }
 }
